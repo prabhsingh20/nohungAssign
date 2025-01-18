@@ -169,7 +169,7 @@
 
 .offer_img2 {
   position: absolute;
-  right: 4rem;
+  right: 2.5rem;
 }
 
 .container {
@@ -177,16 +177,19 @@
   width: 90%;
 }
 
+.distance {
+  margin: 4rem 0 3rem;
+}
+
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin: 4rem 0;
   border-radius: 23.5px;
   box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
 .sub_button {
-  width: 50%;
+  width: 45%;
   font-size: 1.2rem;
   font-weight: 500;
   padding: 1.4rem 2rem;
@@ -198,9 +201,9 @@
 }
 
 .pre_button {
-  width: 50%;
+  width: 55%;
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: bold;
   color: #000;
   background: #fcc647;
   border: none;
@@ -208,4 +211,60 @@
   border-radius: 23.5px;
   padding: 0 5rem;
   cursor: pointer;
+}
+
+.cust_container {
+  position: relative;
+}
+
+.edit_icon {
+  position: absolute;
+  left: 2rem;
+  top: 3.3rem;
+}
+
+.cust_button {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+  border: 1px solid #fcc647;
+  background: transparent;
+  outline: none;
+  border-radius: 7px;
+  padding: 1.2rem 3rem 1.2rem 5rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-shadow: 0 1px 8px 0 #00000026;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.search_container {
+  width: 100%;
+  position: relative;
+}
+.input_search {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 8px 0 #00000026;
+  outline: none;
+}
+
+.input_search::placeholder {
+  padding-left: 0.5rem;
+  font-size: 1.2rem;
+  color: #2f3443b2;
+}
+
+.search_icon {
+  position: absolute;
+  right: 1.2rem;
+  top: 0.7rem;
 }
