@@ -127,3 +127,85 @@
   right: 0.5rem;
   bottom: 2rem;
 }
+
+.offer {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background: #ffcd56;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.offer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #000;
+}
+
+.sale {
+  font-size: 0.8rem;
+}
+
+.spoffer {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.off {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.offer_img1 {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+}
+
+.offer_img2 {
+  position: absolute;
+  right: 4rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+  border-radius: 23.5px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.sub_button {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1.4rem 2rem;
+  color: #000;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.pre_button {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000;
+  background: #fcc647;
+  border: none;
+  outline: none;
+  border-radius: 23.5px;
+  padding: 0 5rem;
+  cursor: pointer;
+}
