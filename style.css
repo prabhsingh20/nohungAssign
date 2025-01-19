@@ -66,9 +66,14 @@
 
 .call {
   border: 1px solid rgba(128, 128, 128, 0.158);
-  padding: 0.5rem;
+  padding: 0.6rem;
   border-radius: 50%;
   margin-right: 0.5rem;
+  box-shadow: 0 0 4px 0 #00000040;
+}
+.what_icon {
+  border-radius: 50px;
+  box-shadow: 0 0 4px 0 #00000040;
 }
 
 .middle_section {
@@ -125,7 +130,7 @@
 .whats_icon {
   position: absolute;
   right: 0.5rem;
-  bottom: 2rem;
+  bottom: 1rem;
 }
 
 .offer {
@@ -294,7 +299,7 @@
 }
 
 .meal_options {
-  margin: 2rem 0 6rem;
+  margin: 2rem 1rem 6rem;
   border-radius: 12px;
   box-shadow: 0 1px 8px 0 #00000026;
 }
@@ -420,9 +425,10 @@
 
 .total_section {
   position: fixed;
+  right: 1.8rem;
   bottom: 9rem;
   border-radius: 50px;
-  width: 95%;
+  width: 90%;
   background-color: #fcc647;
   box-shadow: 7px 0 18.1px -1px #00000040;
 }
