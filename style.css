@@ -291,3 +291,128 @@
   display: flex;
   gap: 4rem;
 }
+
+.meal_options {
+  margin: 2rem 0 6rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px 0 #00000026;
+}
+
+.meal_options_list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 0.4px solid #d3d3d3;
+  padding: 1.2rem;
+}
+
+.meal_layout {
+  grid-column: 1/5;
+  display: flex;
+  gap: 1rem;
+}
+
+.icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.3rem;
+  border: 1px solid #ea0000;
+  border-radius: 3px;
+}
+
+.non_veg_icon {
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: #ea0000;
+  border-radius: 50%;
+}
+
+.meal_details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  & h3 {
+    font-size: 1.4rem;
+    color: #2f3443;
+    font-weight: 400;
+  }
+
+  & div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.about_meal {
+  width: 14rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #5e5e5e;
+  line-height: 12px;
+}
+.pieces {
+  font-weight: 400;
+  font-size: 0.6rem;
+  line-height: 9px;
+}
+
+.meal_price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2f3443;
+}
+
+.meal_img_container {
+  position: relative;
+}
+
+.meal_add {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border: 0.2px solid #d0d0d0;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 -1px 3.5px 0 #00000040;
+}
+
+.meal_add_container {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+
+  & span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 0.5px solid #2f344340;
+    padding: 1rem;
+    border-radius: 6px;
+  }
+}
+
+.veg_icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.3rem;
+  border: 1px solid #00eb00;
+  border-radius: 3px;
+}
+
+.veg_icon {
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: #00eb00;
+  border-radius: 50%;
+}
